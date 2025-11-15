@@ -13,15 +13,84 @@
     </header>
     <main>
       <form>
-        <!-- write your html here-->
-        <!-- 
-          try writing out the requirements first as comments
-        this will also help you fill in your PR message later-->
-      </form>
+        <form action="#" method="post">
+  <div>
+    <label for="fullName">Full name</label>
+    <input
+      type="text" placeholder="Joseph Ayitey"
+      id="fullName"
+      name="fullName"
+      minlength="2"
+      required
+    />  
+  </div>
+
+  <div>
+    <label for="email">Email address</label>
+    <input
+      type="email" placeholder="example@gmail.com"
+      id="email"
+      name="email"
+      required
+    />
+  </div>
+
+  <div>
+   <label for="Addres">Address</label>
+    <input
+      type="Address" placeholder="Home Address"
+      id="Address"
+      name="Address"
+      required
+    />
+  </div>
+
+  <fieldset>
+    <legend>Choose a colour</legend>
+
+    <div>
+      <input type="radio" id="colourRed" name="colour" value="red" required />
+      <label for="colourRed">Red</label>
+    </div>
+
+    <div>
+      <input type="radio" id="colourGreen" name="colour" value="green" />
+      <label for="colourGreen">Green</label>
+    </div>
+
+    <div>
+      <input type="radio" id="colourBlue" name="colour" value="blue" />
+      <label for="colourBlue">Blue</label>
+    </div>
+
+    <div>
+      <input type="radio" id="colourYellow" name="colour" value="Yellow" />
+      <label for="colourYellow">Yellow</label>
+    </div>
+
+     <div>
+      <input type="radio" id="colourBlack" name="colour" value="Black" />
+      <label for="colourBlack">Black</label>
+    </div>
+  </fieldset>
+
+  <div>
+    <label for="size">Choose a size</label>
+    <select id="size" name="size" required>
+      <option value="#">Select size</option>
+      <option value="xs">XS</option>
+      <option value="s">S</option>
+      <option value="m">M</option>
+      <option value="l">L</option>
+      <option value="xl">XL</option>
+      <option value="xxl">XXL</option>
+    </select>
+  </div>
+  <button type="submit">Submit</button>
     </main>
     <footer>
       <!-- change to your name-->
-      <h2>By HOMEWORK SOLUTION</h2>
+      <h2>By J-Linx Front-End Developer(Joseph Ayitey)</h2>
     </footer>
   </body>
 </html>
