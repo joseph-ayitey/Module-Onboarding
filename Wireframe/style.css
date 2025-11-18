@@ -24,7 +24,7 @@ As well as useful links to learn more */
   --line: 1px solid;
   --container: 1280px;
 }
-*{
+* {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
